@@ -6,9 +6,6 @@ import datetime
 import requests
 import json
 
-ADAFRUIT_IO_USERNAME = "bwolfram1"
-ADAFRUIT_IO_KEY = "aio_EOsJ05WNtHaudEGCtmrArBct2HRC"
-
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
 coords = [[33.770472, -84.400666, "overpass"],
