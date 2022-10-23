@@ -8,8 +8,8 @@ image_pixil = 'static/pixil-frame-0.png'
 
 navbar = dbc.NavbarSimple(
     children=[
-        dbc.NavItem(dbc.NavLink("FAQ",  href="/about")),
-        dbc.NavItem(dbc.NavLink("About us", href="/faq")),
+        dbc.NavItem(dbc.NavLink("FAQ",  href="/faq")),
+        dbc.NavItem(dbc.NavLink("About us", href="/about")),
         html.Img(src=image_pixil, height="40px", style={
             "margin-left": "20px",
             "margin-top": "5px",
