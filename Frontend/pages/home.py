@@ -16,9 +16,9 @@ load_figure_template("slate")
 dash.register_page(__name__, path='/', title="D.I.R.T.", description="Drone Infrastructure Research Technology")
 
 
-ADAFRUIT_IO_USERNAME = "bwolfram1"
-ADAFRUIT_IO_KEY = "aio_EOsJ05WNtHaudEGCtmrArBct2HRC"
-token = "pk.eyJ1IjoiYndvbGZyYW0xIiwiYSI6ImNsOWtmd3BsczAyN3gzeG54ZXM5cmVseWoifQ.l5Hyu2E1IEqC1Fdhqkd1cQ"
+ADAFRUIT_IO_USERNAME = ""
+ADAFRUIT_IO_KEY = ""
+token = ""
 
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
